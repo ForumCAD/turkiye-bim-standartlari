@@ -1,0 +1,614 @@
+{
+  "kaynak": "Mimarlık ve Mühendislik Projelerinin Dijital Olarak Hazırlanması Hakkında Yönetmelik (Resmî Gazete, 5 Ağustos 2026, Sayı 33331), EK-3",
+  "kayit": 152,
+  "mahaller": [
+    {
+      "kod": "AAO",
+      "ad": "Atık Ayrıştırma Odası"
+    },
+    {
+      "kod": "ACM",
+      "ad": "Açık Mutfak"
+    },
+    {
+      "kod": "AMD",
+      "ad": "Asansör Makine Dairesi"
+    },
+    {
+      "kod": "ANT",
+      "ad": "Antre"
+    },
+    {
+      "kod": "ARS",
+      "ad": "Arşiv"
+    },
+    {
+      "kod": "ASH",
+      "ad": "Asansör Holü"
+    },
+    {
+      "kod": "ASK",
+      "ad": "Asansör Kuyusu"
+    },
+    {
+      "kod": "ASN",
+      "ad": "Asansör"
+    },
+    {
+      "kod": "ATO",
+      "ad": "Atölye"
+    },
+    {
+      "kod": "AVU",
+      "ad": "Avlu"
+    },
+    {
+      "kod": "BAA",
+      "ad": "Bay Abdesthane"
+    },
+    {
+      "kod": "BAH",
+      "ad": "Bahçe"
+    },
+    {
+      "kod": "BAM",
+      "ad": "Bay Mescit"
+    },
+    {
+      "kod": "BAN",
+      "ad": "Banyo"
+    },
+    {
+      "kod": "BKA",
+      "ad": "Bekleme Alanı"
+    },
+    {
+      "kod": "BKO",
+      "ad": "Bekçi Kulübesi / Odası"
+    },
+    {
+      "kod": "BLK",
+      "ad": "Balkon"
+    },
+    {
+      "kod": "BLS",
+      "ad": "Bulaşıkhane"
+    },
+    {
+      "kod": "BYA",
+      "ad": "Bayan Abdesthane"
+    },
+    {
+      "kod": "BYM",
+      "ad": "Bayan Mescit"
+    },
+    {
+      "kod": "CAO",
+      "ad": "Çalışma Odası"
+    },
+    {
+      "kod": "CAS",
+      "ad": "Çok Amaçlı Salon"
+    },
+    {
+      "kod": "CAT",
+      "ad": "Çatı İçi"
+    },
+    {
+      "kod": "CCT",
+      "ad": "CCTV Odası"
+    },
+    {
+      "kod": "CIC",
+      "ad": "Çiçeklik"
+    },
+    {
+      "kod": "CMN",
+      "ad": "Çamaşır Nişi"
+    },
+    {
+      "kod": "CMR",
+      "ad": "Çamaşır Odası"
+    },
+    {
+      "kod": "COA",
+      "ad": "Çocuk Oyun Alanı"
+    },
+    {
+      "kod": "COC",
+      "ad": "Çocuk Odası"
+    },
+    {
+      "kod": "COO",
+      "ad": "Çocuk Oyun Odası"
+    },
+    {
+      "kod": "CPO",
+      "ad": "Çöp Odası"
+    },
+    {
+      "kod": "CRD",
+      "ad": "Çardak (Kameriye)"
+    },
+    {
+      "kod": "CTP",
+      "ad": "Çatı Piyesi"
+    },
+    {
+      "kod": "CTT",
+      "ad": "Çatı Terası"
+    },
+    {
+      "kod": "CYO",
+      "ad": "Çay Ocağı"
+    },
+    {
+      "kod": "DDP",
+      "ad": "Dükkan Depo"
+    },
+    {
+      "kod": "DEP",
+      "ad": "Depo"
+    },
+    {
+      "kod": "DKN",
+      "ad": "Dükkan"
+    },
+    {
+      "kod": "DKO",
+      "ad": "Doktor Odası"
+    },
+    {
+      "kod": "DNK",
+      "ad": "Danışma-Karşılama"
+    },
+    {
+      "kod": "DRS",
+      "ad": "Derslik"
+    },
+    {
+      "kod": "DUS",
+      "ad": "Duş"
+    },
+    {
+      "kod": "DWC",
+      "ad": "Dükkan WC"
+    },
+    {
+      "kod": "EBB",
+      "ad": "Ebeveyn Banyo"
+    },
+    {
+      "kod": "EBY",
+      "ad": "Ebeveyn Yatak Odası"
+    },
+    {
+      "kod": "ELO",
+      "ad": "Elektrik Odası"
+    },
+    {
+      "kod": "ENJ",
+      "ad": "Enerji Odası"
+    },
+    {
+      "kod": "EPO",
+      "ad": "Elektrik Pano Odası"
+    },
+    {
+      "kod": "ESO",
+      "ad": "Eşanjör Odası"
+    },
+    {
+      "kod": "EWC",
+      "ad": "Engelli WC"
+    },
+    {
+      "kod": "FIT",
+      "ad": "Fitness"
+    },
+    {
+      "kod": "FOT",
+      "ad": "Fotokopi Odası"
+    },
+    {
+      "kod": "FUA",
+      "ad": "Fuaye"
+    },
+    {
+      "kod": "GAL",
+      "ad": "Galeri"
+    },
+    {
+      "kod": "GIH",
+      "ad": "Giriş Holü"
+    },
+    {
+      "kod": "GRJ",
+      "ad": "Garaj"
+    },
+    {
+      "kod": "GTC",
+      "ad": "Gezilebilen Teras Çatı"
+    },
+    {
+      "kod": "GTT",
+      "ad": "Gezilemeyen Teras Çatı"
+    },
+    {
+      "kod": "GVO",
+      "ad": "Güvenlik Kulübesi / Odası"
+    },
+    {
+      "kod": "GYO",
+      "ad": "Giyinme Odası"
+    },
+    {
+      "kod": "HFO",
+      "ad": "Hidrofor Odası"
+    },
+    {
+      "kod": "HOB",
+      "ad": "Hobi Odası"
+    },
+    {
+      "kod": "HOL",
+      "ad": "Hol"
+    },
+    {
+      "kod": "HTH",
+      "ad": "Havuz Teknik Hacim"
+    },
+    {
+      "kod": "HVZ",
+      "ad": "Havuz"
+    },
+    {
+      "kod": "HWD",
+      "ad": "Havuz WC ve Duşları"
+    },
+    {
+      "kod": "HZO",
+      "ad": "Hizmetli Odası"
+    },
+    {
+      "kod": "IAV",
+      "ad": "İç Avlu"
+    },
+    {
+      "kod": "IDO",
+      "ad": "İdari Oda"
+    },
+    {
+      "kod": "ISK",
+      "ad": "Işıklık"
+    },
+    {
+      "kod": "JNO",
+      "ad": "Jeneratör Odası"
+    },
+    {
+      "kod": "KAF",
+      "ad": "Kafeterya"
+    },
+    {
+      "kod": "KAO",
+      "ad": "Kuvvetli Akım Odası"
+    },
+    {
+      "kod": "KCD",
+      "ad": "Kapıcı Dairesi"
+    },
+    {
+      "kod": "KDP",
+      "ad": "Konut Depo"
+    },
+    {
+      "kod": "KEO",
+      "ad": "Kat Elektrik Odaları"
+    },
+    {
+      "kod": "KHL",
+      "ad": "Kat Holü"
+    },
+    {
+      "kod": "KHV",
+      "ad": "Kapalı Havuz"
+    },
+    {
+      "kod": "KKR",
+      "ad": "Kaçış Koridorları"
+    },
+    {
+      "kod": "KLR",
+      "ad": "Kiler"
+    },
+    {
+      "kod": "KML",
+      "ad": "Kömürlük"
+    },
+    {
+      "kod": "KOR",
+      "ad": "Koridor"
+    },
+    {
+      "kod": "KSO",
+      "ad": "Klima Santral Odası"
+    },
+    {
+      "kod": "KUR",
+      "ad": "Kuranglez"
+    },
+    {
+      "kod": "KUT",
+      "ad": "Kütüphane"
+    },
+    {
+      "kod": "KZD",
+      "ad": "Kalorifer Dairesi / Kazan Dairesi"
+    },
+    {
+      "kod": "LOB",
+      "ad": "Lobi"
+    },
+    {
+      "kod": "MAK",
+      "ad": "Makine Dairesi"
+    },
+    {
+      "kod": "MAP",
+      "ad": "Makine Dairesi Asansör Platformu"
+    },
+    {
+      "kod": "MRD",
+      "ad": "Merdiven"
+    },
+    {
+      "kod": "MSD",
+      "ad": "Modüler Su Depoları"
+    },
+    {
+      "kod": "MSO",
+      "ad": "Misafir Odası"
+    },
+    {
+      "kod": "MST",
+      "ad": "Müştemilat"
+    },
+    {
+      "kod": "MUT",
+      "ad": "Mutfak"
+    },
+    {
+      "kod": "ODA",
+      "ad": "Oda"
+    },
+    {
+      "kod": "ODL",
+      "ad": "Odunluk"
+    },
+    {
+      "kod": "OFS",
+      "ad": "Ofis"
+    },
+    {
+      "kod": "OGH",
+      "ad": "Otopark Giriş Holü"
+    },
+    {
+      "kod": "ORP",
+      "ad": "Otopark Rampası"
+    },
+    {
+      "kod": "OTP",
+      "ad": "Otopark"
+    },
+    {
+      "kod": "OTR",
+      "ad": "Oturma Odası"
+    },
+    {
+      "kod": "PMO",
+      "ad": "Pompa Odası"
+    },
+    {
+      "kod": "PNO",
+      "ad": "Pano Odası"
+    },
+    {
+      "kod": "PRK",
+      "ad": "Park"
+    },
+    {
+      "kod": "REV",
+      "ad": "Revir"
+    },
+    {
+      "kod": "RSP",
+      "ad": "Resepsiyon"
+    },
+    {
+      "kod": "RZA",
+      "ad": "Rezerv Alan"
+    },
+    {
+      "kod": "RZG",
+      "ad": "Rüzgarlık"
+    },
+    {
+      "kod": "RZO",
+      "ad": "Rezerv Oda"
+    },
+    {
+      "kod": "SCO",
+      "ad": "Sayaç Odası"
+    },
+    {
+      "kod": "SDO",
+      "ad": "Sandık Odası"
+    },
+    {
+      "kod": "SDP",
+      "ad": "Su Deposu"
+    },
+    {
+      "kod": "SFT",
+      "ad": "Şaft"
+    },
+    {
+      "kod": "SGH",
+      "ad": "Sığınak Giriş Holü"
+    },
+    {
+      "kod": "SGN",
+      "ad": "Sığınak"
+    },
+    {
+      "kod": "SHL",
+      "ad": "Sahanlık"
+    },
+    {
+      "kod": "SLD",
+      "ad": "Sulama Deposu"
+    },
+    {
+      "kod": "SLN",
+      "ad": "Salon"
+    },
+    {
+      "kod": "SPS",
+      "ad": "Spor Salonu"
+    },
+    {
+      "kod": "SRM",
+      "ad": "Servis Merdiveni"
+    },
+    {
+      "kod": "SSA",
+      "ad": "Sosyal Alan"
+    },
+    {
+      "kod": "SST",
+      "ad": "Sosyal Tesis"
+    },
+    {
+      "kod": "SSY",
+      "ad": "Su Sayaç Yeri"
+    },
+    {
+      "kod": "STO",
+      "ad": "Sistem Odası"
+    },
+    {
+      "kod": "SVM",
+      "ad": "Salon ve Mutfak"
+    },
+    {
+      "kod": "SYO",
+      "ad": "Soyunma Odası"
+    },
+    {
+      "kod": "TKO",
+      "ad": "Teknik Oda"
+    },
+    {
+      "kod": "TMZ",
+      "ad": "Temizlik Odası"
+    },
+    {
+      "kod": "TPO",
+      "ad": "Toplantı Odası"
+    },
+    {
+      "kod": "TRO",
+      "ad": "Trafo Odası"
+    },
+    {
+      "kod": "TRT",
+      "ad": "Teras Çatı"
+    },
+    {
+      "kod": "TTO",
+      "ad": "Tesisat Odası"
+    },
+    {
+      "kod": "TUV",
+      "ad": "Tuvalet"
+    },
+    {
+      "kod": "TVO",
+      "ad": "Televizyon Odası"
+    },
+    {
+      "kod": "UTO",
+      "ad": "Ütü Odası"
+    },
+    {
+      "kod": "VES",
+      "ad": "Vestiyer"
+    },
+    {
+      "kod": "WCC",
+      "ad": "WC"
+    },
+    {
+      "kod": "YDP",
+      "ad": "Yakıt Deposu"
+    },
+    {
+      "kod": "YGH",
+      "ad": "Yangın Güvenlik Holü"
+    },
+    {
+      "kod": "YKO",
+      "ad": "Yakıt Tankı Odası"
+    },
+    {
+      "kod": "YMK",
+      "ad": "Yemekhane"
+    },
+    {
+      "kod": "YMO",
+      "ad": "Yönetici Müdür Odası"
+    },
+    {
+      "kod": "YMR",
+      "ad": "Yangın Merdiveni"
+    },
+    {
+      "kod": "YND",
+      "ad": "Yangın Suyu Deposu"
+    },
+    {
+      "kod": "YNO",
+      "ad": "Yönetim Odası"
+    },
+    {
+      "kod": "YPO",
+      "ad": "Yangın Pompa Odası"
+    },
+    {
+      "kod": "YSA",
+      "ad": "Yemek Servis Alanı"
+    },
+    {
+      "kod": "YSD",
+      "ad": "Yağmur Suyu Deposu"
+    },
+    {
+      "kod": "YTH",
+      "ad": "Yatakhane"
+    },
+    {
+      "kod": "YTO",
+      "ad": "Yatak Odası"
+    },
+    {
+      "kod": "YYO",
+      "ad": "Yönetici Müdür Yardımcısı Odası"
+    },
+    {
+      "kod": "ZAO",
+      "ad": "Zayıf Akım Odası"
+    }
+  ]
+}

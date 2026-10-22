@@ -1,0 +1,137 @@
+ifc_sinif,turkce_ad,kisaltma,zorunlu,tablo,on_tanimli_tipler,tanim,kaynak_sayfa,forumcad_url
+IfcAirTerminal,Havalandırma Menfezi,HVM,true,5.1,DIFFUSER|GRILLE|LOUVRE|REGISTER|USERDEFINED|NOTDEFINED,,29,https://forumcad.com/bim/ifc/ifcairterminal
+IfcAudioVisualAppliance,Görsel ve Ses Cihaz,GVS,true,5.1,AMPLIFIER|CAMERA|DISPLAY|MICROPHONE|PLAYER|PROJECTOR|RECEIVER|SPEAKER|SWITCHER|TELEPHONE|TUNER|USERDEFINED|NOTDEFINED,,29,https://forumcad.com/bim/ifc/ifcaudiovisualappliance
+IfcBeam,Kiriş,KRS,true,5.1,BEAM|JOIST|HOLLOWCORE|LINTEL|SPANDREL|T_BEAM|GIRDER_SEGMENT|DIAPHRAGM|PIERCAP|HATSTONE|CORNICE|EDGEBEAM|USERDEFINED|NOTDEFINED,"Bir Kiriş, genellikle yatay veya neredeyse yatay bir yapısal elemandır ve yükleri esas olarak eğilme taşıma gücü ile karşılar. Mimari açıdan böyle bir elemanı da temsil edebilir. Yük taşıyıcı olması gerekmez.",29,https://forumcad.com/bim/ifc/ifcbeam
+IfcBoiler,Kazan,KZN,true,5.1,WATER|STEAM|USERDEFINED|NOTDEFINED,,29,https://forumcad.com/bim/ifc/ifcboiler
+IfcBridge,Köprü,KPR,true,5.1,ARCHED|CABLE STAYED|CANTILEVER|CULVERT|FRAMEWORK|GIRDER|SUSPENSION|TRUSS|USERDEFINED|NOTDEFINED,,29,https://forumcad.com/bim/ifc/ifcbridge
+IfcBridgePart,Köprü Parçası,KPP,true,5.1,ABUTMENT|DECK|DECK SEGMENT|FOUNDATION|PIER|PIER SEGMENT|PYLON|SUB STRUCTURE|SUPER STRUCTURE|SURFACE STRUCTURE|USERDEFINED|NOTDEFINED,,29,https://forumcad.com/bim/ifc/ifcbridgepart
+IfcBuilding,Bina,BNA,true,5.1,,,29,https://forumcad.com/bim/ifc/ifcbuilding
+IfcBuildingStorey,Bina Katı,BNK,true,5.1,,,29,https://forumcad.com/bim/ifc/ifcbuildingstorey
+IfcBurner,Brülör,BRL,true,5.1,USERDEFINED|NOTDEFINED,,29,https://forumcad.com/bim/ifc/ifcburner
+IfcCableCarrierFitting,Kablo Taşıyıcı Bağlantı Parçası,KTB,true,5.1,BEND|CONNECTOR|JUNCTION|TRANSITION|USERDEFINED|NOTDEFINED,,29,https://forumcad.com/bim/ifc/ifccablecarrierfitting
+IfcCableCarrierSegment,Kablo Taşıyıcı Segment,KTS,true,5.1,CABLE BRACKET|CABLE LADDER SEGMENT|CABLE TRAY SEGMENT|CABLE TRUNKING SEGMENT|CATENARY WIRE|CONDUIT SEGMENT|DROPPER|USERDEFINED|NOTDEFINED,,29,https://forumcad.com/bim/ifc/ifccablecarriersegment
+IfcCaissonFoundation,Keson Temeli,KST,true,5.1,WELL|CAISSON|USERDEFINED|NOTDEFINED,,29,https://forumcad.com/bim/ifc/ifccaissonfoundation
+IfcChiller,Soğutma Grubu,SGT,true,5.1,AIR COOLED|WATER COOLED|HEAT RECOVERY|USERDEFINED|NOTDEFINED,,29,https://forumcad.com/bim/ifc/ifcchiller
+IfcChimney,Baca,BAC,true,5.1,USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcchimney
+IfcCoil,Serpantin,SRP,true,5.1,DXCOOLING COIL|ELECTRIC HEATING COIL|GAS HEATING COIL|HYDRONIC COIL|STEAM HEATING COIL|WATER COOLING COIL|WATER HEATING COIL|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifccoil
+IfcColumn,Kolon,KLN,true,5.1,COLUMN|PIERSTEM|PIERSTEM_SEGMENT|PILASTER|STANDCOLUMN|USERDEFINED|NOTDEFINED,"Kolon genellikle statik akslarla hizalanan, düşey yapısal veya mimari bir elemandır. Çoğu durumda, basınç yoluyla üst yapıdaki yükü alttaki diğer yapısal elemanlara aktaran düşey ya da düşeye yakın konumlu bir yapısal elemanı temsil eder. Mimari bakış açısından da böyle bir elemanı temsil edebilir; bu durumda yük taşımayan bir eleman olabilir.",30,https://forumcad.com/bim/ifc/ifccolumn
+IfcCommunicationsAppliance,İletişim Cihazı,ILT,true,5.1,ANTENNA|COMPUTER|FAX|GATEWAY|MODEM|NETWORK APPLIANCE|NETWORK BRIDGE|NETWORK HUB|PRINTER|REPEATER|ROUTER|SCANNER|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifccommunicationsappliance
+IfcCondenser,Kondenser,KND,true,5.1,AIR COOLED|EVAPORATIVE COOLED|WATER COOLED|WATER COOLED BRAZEDPLATE|WATER COOLED SHELL COIL|WATER COOLED SHELL TUBE|WATER COOLED TUBE IN TUBE|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifccondenser
+IfcCoolingTower,Soğutma Kulesi,SKL,true,5.1,NATURAL DRAFT|MECHANICAL INDUCED DRAFT|MECHANICAL FORCED DRAFT|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifccoolingtower
+IfcCovering,Kaplama,KPL,true,5.1,CEILING|CLADDING|COPING|FLOORING|INSULATION|MEMBRANE|MOLDING|ROOFING|SKIRTING BOARD|SLEEVING|TOPPING|WRAPPING|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifccovering
+IfcCurtainWall,Giydirme Cephe,GDC,true,5.1,USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifccurtainwall
+IfcDamper,Damper,DMP,true,5.1,BACK DRAFT DAMPER|BALANCING DAMPER|BLAST DAMPER|CONTROL DAMPER|FIRE DAMPER|FIRE SMOKE DAMPER|FUME HOOD EXHAUST|GRAVITY DAMPER|GRAVITY RELIEF DAMPER|RELIEF DAMPER|SMOKE DAMPER|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcdamper
+IfcDistributionBoard,Dağıtım Panosu,DPN,true,5.1,CONSUMER UNIT|DISTRIBUTION BOARD|MOTOR CONTROL CENTRE|SWITCH BOARD|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcdistributionboard
+IfcDistributionSystem,Dağıtım Sistemi,DGS,true,5.1,AIRCONDITIONING|AUDIOVISUAL|CATENARY_SYSTEM|CHEMICAL|CHILLEDWATER|COMMUNICATION|COMPRESSEDAIR|CONDENSERWATER|CONTROL|CONVEYING|DATA|DISPOSAL|DOMESTICCOLDWATER|DOMESTICHOTWATER|DRAINAGE|EARTHING|ELECTRICAL|ELECTROACOUSTIC|EXHAUST|FIREPROTECTION|FIXEDTRANSMISSIONNETWORK|FUEL|GAS|HAZARDOUS|HEATING|LIGHTING|LIGHTNINGPROTECTION|MOBILENETWORK|MONITORINGSYSTEM|MUNICIPALSOLIDWASTE|OIL|OPERATIONAL|OPERATIONALTELEPHONYSYSTEM|OVERHEAD_CONTACTLINE_SYSTEM|POWERGENERATION|RAINWATER|REFRIGERATION|RETURN_CIRCUIT|SECURITY|SEWAGE|SIGNAL|STORMWATER|TELEPHONE|TV|VACUUM|VENT|VENTILATION|WASTEWATER|WATERSUPPLY|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcdistributionsystem
+IfcDoor,Kapı,KAP,true,5.1,BOOM BARRIER|DOOR|GATE|TRAPDOOR|TURNSTILE|USERDEFINED|NOTDEFINED,"Kapı, esas olarak insanlar, eşyalar, hayvanlar ve araçlar için kontrollü erişim sağlamak üzere kullanılan bir yapı elemanıdır. Menteşeli, eksenel, kayar ve ayrıca döner kapı veya katlanır kapı yapılarını içerir.",30,https://forumcad.com/bim/ifc/ifcdoor
+IfcDuctFitting,Kanal Bağlantı Parçası,KBP,true,5.1,BEND|CONNECTOR|ENTRY|EXIT|JUNCTION|OBSTRUCTION|TRANSITION|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcductfitting
+IfcDuctSegment,Kanal Segmenti,KNS,true,5.1,FLEXIBLE SEGMENT|RIGID SEGMENT|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcductsegment
+IfcDuctSilencer,Kanal Susturucusu,KSS,true,5.1,FLATOVAL|RECTANGULAR|ROUND|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcductsilencer
+IfcElectricAppliance,Elektrikli Cihaz,ECZ,true,5.1,DISH WASHER|ELECTRIC COOKER|FREE STANDING ELECTRIC HEATER|FREE STANDING FAN|FREE STANDING WATER COOLER|FREE STANDING WATER HEATER|FREEZER|FRIDGE FREEZER|HAND DRYER|KITCHEN MACHINE|MICROWAVE|PHOTOCOPIER|REFRIGERATOR|TUMBLE DRYER|VENDING MACHINE|WASHING MACHINE|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcelectricappliance
+IfcElectricGenerator,Elektrik Jeneratörü,EJN,true,5.1,CHP|ENGINEGENERATOR|STANDALONE|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcelectricgenerator
+IfcEvaporator,Evaporatör,EVP,true,5.1,DIRECT EXPANSION|DIRECT EXPANSION SHELL AND TUBE|DIRECT EXPANSION TUBE IN TUBE|DIRECT EXPANSION BRAZED PLATE|FLOODED SHELL AND TUBE|SHELL AND COIL|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcevaporator
+IfcFan,Fan,FAN,true,5.1,CENTRIFUGAL AIR FOIL|CENTRIFUGAL BACKWARDINCLINED CURVED|CENTRIFUGAL FORWARD CURVED|CENTRIFUGAL RADIAL|PROPELLOR AXIAL|TUBE AXIAL|VANE AXIAL|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcfan
+IfcFireSuppressionTerminal,Yangın Söndürme Terminali,YST,true,5.1,BREECHINGINLET|FIRE HYDRANT|FIRE MONITOR|HOSEREEL|SPRINKLER|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcfiresuppressionterminal
+IfcFooting,Temel,TML,true,5.1,CAISSON FOUNDATION|FOOTING BEAM|PAD FOOTING|PILE CAP|STRIP FOOTING|USERDEFINED|NOTDEFINED,"Temel pabucu, bir yapının yükünü yayarak toprağa ileten bir yapı parçasıdır. Temel pabucu, yüklerin yüzeye yakın bir alana aktarıldığı sığ temel olarak da tanımlanır.",30,https://forumcad.com/bim/ifc/ifcfooting
+IfcFurniture,Mobilya,MBL,true,5.1,BED|CHAIR|DESK|FILE CABINET|SHELF|SOFA|TABLE|TECHNICAL CABINET|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcfurniture
+IfcGridAxis,Aks,AKS,true,5.1,,,30,https://forumcad.com/bim/ifc/ifcgridaxis
+IfcGroup,Grup,GRP,true,5.1,,,30,https://forumcad.com/bim/ifc/ifcgroup
+IfcHeatExchanger,Isı Eşanjörü,IEJ,true,5.1,PLATE|SHELLANDTUBE|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcheatexchanger
+IfcLightFixture,Aydınlatma Armatürü,AYN,true,5.1,DIRECTION SOURCE|POINT SOURCE|SECURITY LIGHTING|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifclightfixture
+IfcMember,Eleman,ELM,true,5.1,ARCH_SEGMENT|BRACE|CHORD|COLLAR|MEMBER|MULLION|PLATE|POST|PURLIN|RAFTER|STAY_CABLE|STIFFENING_RIB|STRINGER|STRUCTURALCABLE|STRUT|STUD|SUSPENDER|SUSPENSION_CABLE|TIEBAR|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcmember
+IfcOpeningElement,Açıklık Elemanı,ACL,true,5.1,OPENING|RECESS|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcopeningelement
+IfcOutlet,Priz,PRZ,true,5.1,AUDIO VISUAL OUTLET|COMMUNICATIONS OUTLET|DATA OUTLET|POWER OUTLET|TELEPHONE OUTLET|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcoutlet
+IfcPavement,Asfalt,ASF,true,5.1,FLEXIBLE|RIGID|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcpavement
+IfcPile,Kazık,KZK,true,5.1,BORED|DRIVEN|JETGROUTING|COHESION|FRICTION|SUPPORT|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcpile
+IfcPipeFitting,Boru Bağlantı Parçası,BBP,true,5.1,BEND|CONNECTOR|ENTRY|EXIT|JUNCTION|OBSTRUCTION|TRANSITION|USERDEFINED|NOTDEFINED,,30,https://forumcad.com/bim/ifc/ifcpipefitting
+IfcPipeSegment,Boru Segmenti,BRS,true,5.1,CULVERT|FLEXIBLESEGMENT|RIGIDSEGMENT|GUTTER|SPOOL|USERDEFINED|NOTDEFINED,,31,https://forumcad.com/bim/ifc/ifcpipesegment
+IfcProject,Proje,,true,5.1,,,31,https://forumcad.com/bim/ifc/ifcproject
+IfcPump,Pompa,PMP,true,5.1,CIRCULATOR|END SUCTION|SPLIT CASE|SUBMERSIBLE PUMP|SUMP PUMP|VERTICAL INLINE|VERTICAL TURBINE|USERDEFINED|NOTDEFINED,,31,https://forumcad.com/bim/ifc/ifcpump
+IfcRailing,Korkuluk,KRK,true,5.1,HAND RAIL|GUARD RAIL|BALUSTRADE|USERDEFINED|NOTDEFINED,,31,https://forumcad.com/bim/ifc/ifcrailing
+IfcRamp,Rampa,RMP,true,5.1,STRAIGHT RUN RAMP|TWO STRAIGHT RUN RAMP|QUARTER TURN RAMP|TWO QUARTER TURN RAMP|HALF TURN RAMP|SPIRAL RAMP|USERDEFINED|NOTDEFINED,,31,https://forumcad.com/bim/ifc/ifcramp
+IfcRoad,Yol,YOL,true,5.1,BICYCLE CROSSING|BUS STOP|CARRIAGEWAY|CENTRAL ISLAND|CENTRAL RESERVE|HARD SHOULDER|INTERSECTION|LAY-BY|PARKING BAY|PASSING BAY|PEDESTRIAN CROSSING|REFUGE ISLAND|ROAD SEGMENT|ROAD SIDE|ROAD SIDE PART|ROADWAY PLATEAU|ROUNDABOUT|SHOULDER|SIDEWALK|SOFT SHOULDER|TOLL PLAZA|TRAFFIC ISLAND|TRAFFIC LANE|USERDEFINED|NOTDEFINED,,31,https://forumcad.com/bim/ifc/ifcroad
+IfcRoadPart,Yol Parçası,YLP,true,5.1,BICYCLE CROSSING|BUS STOP|CARRIAGEWAY|CENTRAL ISLAND|CENTRAL RESERVE|HARD SHOULDER|INTERSECTION|LAY-BY|PARKING BAY|PASSING BAY|PEDESTRIAN CROSSING|REFUGE ISLAND|ROAD SEGMENT|ROAD SIDE|ROAD SIDE PART|ROADWAY PLATEAU|ROUNDABOUT|SHOULDER|SIDEWALK|SOFT SHOULDER|TOLL PLAZA|TRAFFIC ISLAND|TRAFFIC LANE|USERDEFINED|NOTDEFINED,,31,https://forumcad.com/bim/ifc/ifcroadpart
+IfcRoof,Çatı,CAT,true,5.1,FLAT ROOF|SHED ROOF|GABLE ROOF|HIP ROOF|HIPPED GABLE ROOF|GAMBREL ROOF|MANSARD ROOF|BARREL ROOF|RAINBOW ROOF|BUTTERFLY ROOF|PAVILION ROOF|DOME ROOF|FREEFORM|USERDEFINED|NOTDEFINED,"Çatı, bir binanın en üst kısmını örten yapı elemanıdır; binayı hava koşullarının etkilerine karşı korur.",31,https://forumcad.com/bim/ifc/ifcroof
+IfcSanitaryTerminal,Sıhhi Terminal,STT,true,5.1,BATH|BIDET|CISTERN|SHOWER|SINK|SANITARY FOUNTAIN|TOILET PAN|URINAL|WASH HAND BASIN|WC SEAT|USERDEFINED|NOTDEFINED,,31,https://forumcad.com/bim/ifc/ifcsanitaryterminal
+IfcSign,Tabela,TBL,true,5.1,MARKER|PICTORAL|MIRROR|USERDEFINED|NOTDEFINED,,31,https://forumcad.com/bim/ifc/ifcsign
+IfcSite,Saha,SAH,true,5.1,,,31,https://forumcad.com/bim/ifc/ifcsite
+IfcSlab,Döşeme,DSM,true,5.1,APPROACH SLAB|BASE SLAB|FLOOR|LANDING|PAVING|ROOF|SIDEWALK|TRACK SLAB|WEARING|USERDEFINED|NOTDEFINED,"Döşeme, düşey olarak bir hacmi kapatabilen yapı bileşenidir. Döşeme, alt taşıyıcıyı (kat döşemesi) veya üst katı (çatı döşemesi) sağlayabilir ve bir binadaki herhangi bir mekânda yer alabilir.",31,https://forumcad.com/bim/ifc/ifcslab
+IfcSolarDevice,Güneş Enerjisi Cihazı,GEC,true,5.1,SOLAR COLLECTOR|SOLAR PANEL|USERDEFINED|NOTDEFINED,,31,https://forumcad.com/bim/ifc/ifcsolardevice
+IfcSpace,Mahal,MHL,true,5.1,SPACE|PARKING|GFA|INTERNAL|EXTERNAL|USERDEFINED|NOTDEFINED,"Bir mahal, gerçek veya varsayımsal olarak sınırlandırılmış bir alanı veya hacmi temsil eder. Mekanlar, bir bina içinde belirli işlevleri yerine getiren alanlar veya hacimlerdir.",31,https://forumcad.com/bim/ifc/ifcspace
+IfcSpaceHeater,Mekan Isıtıcısı,MIS,true,5.1,CONVECTOR|RADIATOR|USERDEFINED|NOTDEFINED,,31,https://forumcad.com/bim/ifc/ifcspaceheater
+IfcSpatialZone,Mekansal Zon,MZN,true,5.1,,,31,https://forumcad.com/bim/ifc/ifcspatialzone
+IfcStair,Merdiven,MRD,true,5.1,STRAIGHT RUN STAIR|TWO STRAIGHT RUN STAIR|QUARTER WINDING STAIR|QUARTER TURN STAIR|HALF WINDING STAIR|HALF TURN STAIR|TWO QUARTER WINDING STAIR|TWO QUARTER TURN STAIR|THREE QUARTER WINDING STAIR|THREE QUARTER TURN STAIR|SPIRAL STAIR|DOUBLE RETURN STAIR|CURVED RUN STAIR|TWO CURVED RUN STAIR|USERDEFINED|NOTDEFINED,"Merdiven, kullanıcıların bir döşeme seviyesinden diğerine yürüyerek (adım atarak) çıkmasına/inmesine imkân tanıyan düşey bir geçiş yoludur. Ara kat döşemesi gibi bir sahanlık içerebilir.",31,https://forumcad.com/bim/ifc/ifcstair
+IfcTank,Tank,TNK,true,5.1,BASIN|BREAK PRESSURE|EXPANSION|FEED AND EXPANSION|OILRETENTION TRAY|PRESSURE VESSEL|STORAGE|VESSEL|USERDEFINED|NOTDEFINED,,31,https://forumcad.com/bim/ifc/ifctank
+IfcTransformer,Transformatör,TRF,true,5.1,CURRENT|FREQUENCY|INVERTER|RECTIFIER|VOLTAGE|USERDEFINED|NOTDEFINED,,31,https://forumcad.com/bim/ifc/ifctransformer
+IfcTransportElement,Taşıma Elemanı,TSM,true,5.1,ELEVATOR|ESCALATOR|MOVING WALKWAY|CRANEWAY|LIFTING GEAR|USERDEFINED|NOTDEFINED,,31,https://forumcad.com/bim/ifc/ifctransportelement
+IfcValve,Vana,VNA,true,5.1,AIR RELEASE|ANTI VACUUM|CHANGE OVER|CHECK|COMMISSIONING|DIVERTING|DRAW OFF COCK|DOUBLE CHECK|DOUBLE REGULATING|FAUCET|FLUSHING|GAS COCK|GAS TAP|ISOLATING|MIXING|PRESSURE REDUCING|PRESSURE RELIEF|REGULATING|SAFETY CUT OFF|STEAM TRAP|STOP COCK|USERDEFINED|NOTDEFINED,,31,https://forumcad.com/bim/ifc/ifcvalve
+IfcWall,Duvar,DVR,true,5.1,ELEMENTED WALL|MOVABLE|PARAPET|PARTITIONING|PLUMBING WALL|POLYGONAL|RETAINING WALL|SHEAR|SOLIDWALL|STANDARD|WAVEWALL|USERDEFINED|NOTDEFINED,"Duvar, mekanları sınırlayabilen veya bölebilen düşey bir yapısal bileşendir. Duvarlar genellikle düşey veya düşeye yakın düzlemsel elemanlardır ve yapısal yükleri taşımak üzere tasarlanabilir. Ancak, taşıyıcı olmak zorunda değildir.",31,https://forumcad.com/bim/ifc/ifcwall
+IfcWindow,Pencere,PNC,true,5.1,WINDOW|SKYLIGHT|LIGHTDOME|USERDEFINED|NOTDEFINED,"Pencere, esas olarak doğal ışık ve temiz hava sağlamak için kullanılan bir yapı elemanıdır. Düşey açıklıkları içerdiği gibi çatı pencereleri veya ışıklıklar gibi yatay açıklıkları da kapsar. Açılır, döner, kayar, döner kanatlı veya sabit panellerden oluşan yapıları içerebilir.",31,https://forumcad.com/bim/ifc/ifcwindow
+IfcZone,Zon,ZON,true,5.1,,,31,https://forumcad.com/bim/ifc/ifczone
+IfcActuator,Aktüatör,AKT,false,5.2,,,31,https://forumcad.com/bim/ifc/ifcactuator
+IfcAirTerminalBox,Hava Terminal Kutusu,HTK,false,5.2,,,31,https://forumcad.com/bim/ifc/ifcairterminalbox
+IfcAirToAirHeatRecovery,Hava-Hava Isı Geri Kazanım Cihazı,HIG,false,5.2,,,31,https://forumcad.com/bim/ifc/ifcairtoairheatrecovery
+IfcAlarm,Alarm,ALR,false,5.2,,,31,https://forumcad.com/bim/ifc/ifcalarm
+IfcCableFitting,Kablo Elemanı (Uç),KLU,false,5.2,,,32,https://forumcad.com/bim/ifc/ifccablefitting
+IfcCableSegment,Kablo Segmenti,KBS,false,5.2,,,32,https://forumcad.com/bim/ifc/ifccablesegment
+IfcCompressor,Kompresör,KMP,false,5.2,,,32,https://forumcad.com/bim/ifc/ifccompressor
+IfcController,Kontrol Cihazı,KNT,false,5.2,,,32,https://forumcad.com/bim/ifc/ifccontroller
+IfcConveyorSegment,Konveyör Segmenti,KVS,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcconveyorsegment
+IfcCooledBeam,Soğutmalı Kiriş,SKR,false,5.2,,,32,https://forumcad.com/bim/ifc/ifccooledbeam
+IfcDiscreteAccessory,Küçük Donatı Elemanı,KDE,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcdiscreteaccessory
+IfcDistributionChamberElement,Dağıtım Odası Elemanı,DOE,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcdistributionchamberelement
+IfcDistributionCircuit,Dağıtım Devresi,DDV,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcdistributioncircuit
+IfcDistributionPort,Dağıtım Portu,DPT,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcdistributionport
+IfcEarthworksCut,Kazı İşleri,KZI,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcearthworkscut
+IfcEarthworksFill,Dolgu İşleri,DGI,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcearthworksfill
+IfcElectricFlowStorageDevice,Elektrik Akış Depolama Cihazı,EAD,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcelectricflowstoragedevice
+IfcElectricFlowTreatmentDevice,Elektrik Akış İşleme Cihazı,EAI,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcelectricflowtreatmentdevice
+IfcElectricMotor,Elektrik Motoru,EMO,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcelectricmotor
+IfcElectricTimeControl,Elektrik Zaman Kontrol Cihazı,EZK,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcelectrictimecontrol
+IfcElementAssembly,Eleman Montajı,EMN,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcelementassembly
+IfcEngine,Motor (Engine),MTR,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcengine
+IfcEvaporativeCooler,Buharlaşmalı Soğutucu,BSC,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcevaporativecooler
+IfcExternalSpatialElement,Dış Mekan Elemanı,DME,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcexternalspatialelement
+IfcFacilityPartCommon,Tesis Ortak Bölümü,TOB,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcfacilitypartcommon
+IfcFilter,Filtre,FLT,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcfilter
+IfcFlowInstrument,Akış Ölçer Cihazı,AOC,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcflowinstrument
+IfcFlowMeter,Akış Sayacı,ASY,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcflowmeter
+IfcGeographicElement,Coğrafi Eleman,COG,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcgeographicelement
+IfcGeomodel,Coğrafi Model,CGM,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcgeomodel
+IfcGeoslice,Coğrafi Dilim,CDL,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcgeoslice
+IfcGeotechnicalStratum,Jeoteknik Katman,JTK,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcgeotechnicalstratum
+IfcHumidifier,Nemlendirici,NML,false,5.2,,,32,https://forumcad.com/bim/ifc/ifchumidifier
+IfcImpactProtectionDevice,Darbe Koruma Cihazı,DKC,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcimpactprotectiondevice
+IfcInterceptor,Tutucu / Ayırıcı (Interceptor),TTA,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcinterceptor
+IfcJunctionBox,Bağlantı Kutusu,BKT,false,5.2,,,32,https://forumcad.com/bim/ifc/ifcjunctionbox
+IfcKerb,Bordür,BRD,false,5.2,,,33,https://forumcad.com/bim/ifc/ifckerb
+IfcLamp,Lamba,LMB,false,5.2,,,33,https://forumcad.com/bim/ifc/ifclamp
+IfcLiquidTerminal,Sıvı Terminali,STM,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcliquidterminal
+IfcMechanicalFastener,Mekanik Bağlantı Elemanı,MBE,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcmechanicalfastener
+IfcMedicalDevice,Medikal Cihaz,MDC,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcmedicaldevice
+IfcMobileTelecommunicationsAppliance,Mobil Telekomünikasyon Cihazı,MTC,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcmobiletelecommunicationsappliance
+IfcMooringDevice,Halat / Bağlama Cihazı,HBC,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcmooringdevice
+IfcMotorConnection,Motor Bağlantısı,MBA,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcmotorconnection
+IfcNavigationElement,Seyir Elemanı,SEY,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcnavigationelement
+IfcProjectionElement,Projeksiyon Elemanı,PJE,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcprojectionelement
+IfcProtectiveDevice,Koruma Cihazı,KRC,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcprotectivedevice
+IfcProtectiveDeviceTrippingUnit,Koruma Cihazı Açma Ünitesi,KAU,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcprotectivedevicetrippingunit
+IfcRail,Ray,RAY,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcrail
+IfcRampFlight,Rampa Kolu,RMK,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcrampflight
+IfcReinforcedSoil,Donatılı Zemin,DNZ,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcreinforcedsoil
+IfcSensor,Sensör,SNS,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcsensor
+IfcShadingDevice,Güneş Kırıcı,GNK,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcshadingdevice
+IfcSignal,Sinyal,SNY,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcsignal
+IfcStackTerminal,Yığın Terminali,YTN,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcstackterminal
+IfcStairFlight,Merdiven Kolu,MRK,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcstairflight
+IfcSwitchingDevice,Anahtarlama Cihazı,AHC,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcswitchingdevice
+IfcSystemFurnitureElement,Sistem Mobilya Elemanı,SME,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcsystemfurnitureelement
+IfcTubeBundle,Boru Demeti,BDM,false,5.2,,,33,https://forumcad.com/bim/ifc/ifctubebundle
+IfcUnitaryControlElement,Üniter Kontrol Elemanı,UKE,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcunitarycontrolelement
+IfcUnitaryEquipment,Üniter Ekipman,UEK,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcunitaryequipment
+IfcVehicle,Araç,ARC,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcvehicle
+IfcVibrationDamper,Titreşim Sönümleyici,TSD,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcvibrationdamper
+IfcVibrationIsolator,Titreşim İzolatörü,TIZ,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcvibrationisolator
+IfcVirtualElement,Sanal Eleman,SNE,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcvirtualelement
+IfcVoidingFeature,Boşaltma Özelliği,BOS,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcvoidingfeature
+IfcWasteTerminal,Atık Terminali,ATK,false,5.2,,,33,https://forumcad.com/bim/ifc/ifcwasteterminal

@@ -1,0 +1,31 @@
+kod,ad,grup
+MMC,Mimari Çizim,MIMARI
+MAP,Mimari Açıklama Raporu,MIMARI
+ERP,Erişilebilirlik Çizimi,MIMARI
+YKG,Yangın Kaçış ve Güvenlik Planları,MIMARI
+CAT,Çatı Planı ve Detayları,MIMARI
+VAZ,Vaziyet Planı,MIMARI
+MIR,Mimari Hesap Raporu,MIMARI
+STC,Statik Çizim,STATIK
+SHR,Statik Hesap Raporu,STATIK
+ISC,İskele Çizimi,STATIK
+IHR,İskele Hesap Raporu,STATIK
+MKC,Mekanik Çizim,MEKANIK
+ITH,Isıtma Tesisatı Hesap Raporu,MEKANIK
+IYP,Isı Yalıtım Projesi Hesap Raporu,MEKANIK
+IKR,Isı Kaybı Isı Kazanç Hesapları Raporu,MEKANIK
+EKB,Enerji Kimlik Belgesi Ön Hesap Raporu,MEKANIK
+ASN,Asansör Trafik Hesabı,MEKANIK
+MTS,Mekanik Özel Teknik Şartname,MEKANIK
+ELC,Elektrik Çizim,ELEKTRIK
+AGH,Akım Kontrolü ve Gerilim Düşümü Hesabı,ELEKTRIK
+TGH,Trafo Güç Hesabı,ELEKTRIK
+AHR,Aydınlatma Hesap Raporu,ELEKTRIK
+ETS,Elektrik Özel Teknik Şartname,ELEKTRIK
+YAP,Yapı Aplikasyon Projesi,HARITA
+DIC,Diğer Çizim,DIGER
+DGR,Diğer Raporlar,DIGER
+MLZ,Malzeme Listesi,TUM
+MHL,Mahal Listesi,TUM
+XXX,Tip yok,TUM
+MKF,Model Kontrol Formu,TUM

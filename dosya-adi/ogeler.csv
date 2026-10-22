@@ -1,0 +1,191 @@
+disiplin,kod,ad,tur,tablo
+AL,DIGR,Diğer,alt_disiplin,2.9
+AL,XXXX,Genel,alt_disiplin,2.9
+AL,ATIS,Atık Su,alt_disiplin,2.9
+AL,ICMS,İçme Suyu,alt_disiplin,2.9
+AL,YAGS,Yağmur Suyu,alt_disiplin,2.9
+EE,DIGR,Diğer,alt_disiplin,2.7
+EE,XXXX,Genel,alt_disiplin,2.7
+EE,AYDT,Aydınlatma Tesisatı,alt_disiplin,2.7
+EE,CAYT,Çevre Aydınlatma Tesisatı,alt_disiplin,2.7
+EE,CTVS,Kapalı Devre TV Sistemleri (CCTV)-Kartlı Geçiş ve Güvenlik Sistemleri,alt_disiplin,2.7
+EE,DJGT,Dizel Jeneratör Grubu Tesisatı,alt_disiplin,2.7
+EE,GUDT,Güç Dağıtım Tesisatı -Mekanik Tesisat İçin Güç Dağıtımı Tesisatı-Reaktif Güç Kompanzasyonu,alt_disiplin,2.7
+EE,KUVA,Kuvvetli Akım Tesisatı,alt_disiplin,2.7
+EE,MYAS,"Müzik Yayın, Anons Sistemi-Merkezi Saat Sistemi- Intercom Sistemi",alt_disiplin,2.7
+EE,OGET,Orta Gerilim Enerji Temini (Trafo),alt_disiplin,2.7
+EE,TBIA,Telefon-Bilgi İletişim Ağı-TV Sistemleri Tesisatı,alt_disiplin,2.7
+EE,TOST,Topraklama Sistemleri Tesisatı -Yıldırımdan Korunma Sistemi,alt_disiplin,2.7
+EE,YAVA,Yangın Algılama ve Alarm Tesisatı-Acil Anons Sistemleri -Acil Durum Aydınlatma ve Yönlendirme Tesisatı,alt_disiplin,2.7
+EE,ZAYA,Zayıf Akım Tesisatı,alt_disiplin,2.7
+HR,DIGR,Diğer,oge,2.8
+HR,XXXX,Genel,oge,2.8
+HR,ADPL,Ada Parsel,oge,2.8
+HR,BLKA,Blok Adı,oge,2.8
+HR,BZKT,Bina Zemin Kotu,oge,2.8
+HR,CKMS,Çekme Mesafesi,oge,2.8
+HR,DOSB,Dönüşüm Bilgisi,oge,2.8
+HR,KMPL,Komşu Parseller,oge,2.8
+HR,KORD,Koordinatlar,oge,2.8
+HR,LJNT,Lejant,oge,2.8
+HR,PKBL,Proje Koordinat Bilgisi,oge,2.8
+HR,PLGN,Poligon,oge,2.8
+HR,PZKT,Parsel Zemin Kotu,oge,2.8
+IM,DIGR,Diğer,oge,2.4
+IM,XXXX,Genel,oge,2.4
+IM,AKSR,Aksesuar,oge,2.4
+IM,AKUS,Akustik Panel,oge,2.4
+IM,ASAN,Asansör,oge,2.4
+IM,ASTV,Asma Tavan,oge,2.4
+IM,AYDN,Aydınlatma Elemanı,oge,2.4
+IM,BACA,Baca,oge,2.4
+IM,BITK,Bitki,oge,2.4
+IM,BNYO,Banyo Elemanı,oge,2.4
+IM,BOLP,Bölücü Panel,oge,2.4
+IM,BORD,Bordür,oge,2.4
+IM,CAMM,Cam,oge,2.4
+IM,CATI,Çatı,oge,2.4
+IM,CEPH,Cephe,oge,2.4
+IM,CKAP,Çatı Kaplama,oge,2.4
+IM,CKTA,Çatı Kaplama Tahtası,oge,2.4
+IM,CMBL,Cam İç Bölme,oge,2.4
+IM,CORT,Çörten,oge,2.4
+IM,CTAS,Çatı Taşıyıcı,oge,2.4
+IM,CVRE,Çevre,oge,2.4
+IM,DENZ,Denizlik,oge,2.4
+IM,DOGR,Doğrama,oge,2.4
+IM,DOSM,Döşeme,oge,2.4
+IM,DUVA,Duvar,oge,2.4
+IM,DUVK,Duvar Kaplama,oge,2.4
+IM,EMSL,Emsal,oge,2.4
+IM,GIYC,Giydirme Cephe,oge,2.4
+IM,GNKR,Güneş Kırıcı,oge,2.4
+IM,HARP,Harpuşta,oge,2.4
+IM,HATL,Hatıl,oge,2.4
+IM,ISLH,Islak Hacim,oge,2.4
+IM,ISYA,Isı Yalıtımı,oge,2.4
+IM,KALD,Kaldırım,oge,2.4
+IM,KARP,Kartonpiyer,oge,2.4
+IM,KLIM,Klima İç Ünite,oge,2.4
+IM,KORK,Korkuluk,oge,2.4
+IM,KPKN,Kapı Kanat,oge,2.4
+IM,KPKS,Kapı Kasa,oge,2.4
+IM,LENT,Lento,oge,2.4
+IM,MERD,Merdiven,oge,2.4
+IM,MNFZ,Menfez,oge,2.4
+IM,MTFK,Mutfak Elemanı,oge,2.4
+IM,OLUK,Oluk,oge,2.4
+IM,PANL,Ahşap Panel,oge,2.4
+IM,PNKS,Pencere Kasa,oge,2.4
+IM,PNKT,Pencere Kanat,oge,2.4
+IM,PRDE,Perde,oge,2.4
+IM,PRIZ,Priz/Anahtar,oge,2.4
+IM,RAMP,Rampa,oge,2.4
+IM,SAPP,Şap,oge,2.4
+IM,SESY,Ses Yalıtımı,oge,2.4
+IM,SIVA,Sıva,oge,2.4
+IM,SMOB,Sabit Mobilya,oge,2.4
+IM,SUPR,Süpürgelik,oge,2.4
+IM,SUYA,Su Yalıtımı,oge,2.4
+IM,TASI,Taşıyıcı,oge,2.4
+IM,TAVN,Tavan,oge,2.4
+IM,TEFR,Tefriş,oge,2.4
+IM,TEML,Temel,oge,2.4
+IM,TRET,Tretuvar,oge,2.4
+IM,TSVY,Tesviye Betonu,oge,2.4
+IM,TZGH,Tezgâh,oge,2.4
+IM,YIBO,Yağmur İniş Borusu,oge,2.4
+IM,YOLL,Yol,oge,2.4
+IM,ZMNK,Zemin Kaplama,oge,2.4
+MK,DIGR,Diğer,alt_disiplin,2.6
+MK,XXXX,Genel,alt_disiplin,2.6
+MK,ASNR,Asansör,alt_disiplin,2.6
+MK,ASTT,Atık Su Arıtma Tesisatı,alt_disiplin,2.6
+MK,BHTT,Buhar Tesisatı,alt_disiplin,2.6
+MK,BSHT,Basınçlı Hava Tesisatı,alt_disiplin,2.6
+MK,BSTT,Bahçe Sulama Tesisatı,alt_disiplin,2.6
+MK,CMTT,Çamaşırhane Tesisatı,alt_disiplin,2.6
+MK,DGTT,Doğalgaz Tesisatı,alt_disiplin,2.6
+MK,DSDK,Klima Tesisatı,alt_disiplin,2.6
+MK,HVLT,Havalandırma Tesisat,alt_disiplin,2.6
+MK,HVZT,Havuz Tesisatı,alt_disiplin,2.6
+MK,ISTT,Isıtma Tesisat,alt_disiplin,2.6
+MK,MDGZ,Medikal Gaz,alt_disiplin,2.6
+MK,MUTT,Mutfak Tesisatı,alt_disiplin,2.6
+MK,ORTT,Müşterek Tesisat,alt_disiplin,2.6
+MK,OTMT,Otomatik Kontrol Tesisatı,alt_disiplin,2.6
+MK,PIST,Pissu Tesisatı,alt_disiplin,2.6
+MK,SGTT,Soğutma Tesisatı,alt_disiplin,2.6
+MK,SHTT,Sıhhi Tesisat,alt_disiplin,2.6
+MK,TMST,Temiz Su Tesisatı,alt_disiplin,2.6
+MK,YAGT,Yağmur Tesisatı,alt_disiplin,2.6
+MK,YNGT,Yangın Tesisatı,alt_disiplin,2.6
+MM,DIGR,Diğer,oge,2.3
+MM,XXXX,Genel,oge,2.3
+MM,AKSR,Aksesuar,oge,2.3
+MM,AKSS,Aks,oge,2.3
+MM,ASAN,Asansör,oge,2.3
+MM,ASTV,Asma Tavan,oge,2.3
+MM,BACA,Baca,oge,2.3
+MM,BITK,Bitki,oge,2.3
+MM,BORD,Bordür,oge,2.3
+MM,CAMM,Cam,oge,2.3
+MM,CATI,Çatı,oge,2.3
+MM,CEPH,Cephe,oge,2.3
+MM,CKAP,Çatı Kaplama,oge,2.3
+MM,CKTA,Çatı Kaplama Tahtası,oge,2.3
+MM,CORT,Çörten,oge,2.3
+MM,CTAS,Çatı Taşıyıcı,oge,2.3
+MM,CVRE,Çevre,oge,2.3
+MM,DENZ,Denizlik,oge,2.3
+MM,DOGR,Doğrama,oge,2.3
+MM,DOSM,Döşeme,oge,2.3
+MM,DUVA,Duvar,oge,2.3
+MM,DUVK,Duvar Kaplama,oge,2.3
+MM,EMSL,Emsal,oge,2.3
+MM,GIYC,Giydirme Cephe,oge,2.3
+MM,GNKR,Güneş Kırıcı,oge,2.3
+MM,HARP,Harpuşta,oge,2.3
+MM,HATL,Hatıl,oge,2.3
+MM,ISLH,Islak Hacim,oge,2.3
+MM,ISYA,Isı Yalıtımı,oge,2.3
+MM,KALD,Kaldırım,oge,2.3
+MM,KAPI,Kapı,oge,2.3
+MM,KARP,Kartonpiyer,oge,2.3
+MM,KOLN,Kolon,oge,2.3
+MM,KORK,Korkuluk,oge,2.3
+MM,LENT,Lento,oge,2.3
+MM,MERD,Merdiven,oge,2.3
+MM,OLUK,Oluk,oge,2.3
+MM,PENC,Pencere,oge,2.3
+MM,RAMP,Rampa,oge,2.3
+MM,SAPP,Şap,oge,2.3
+MM,SESY,Ses Yalıtımı,oge,2.3
+MM,SIVA,Sıva,oge,2.3
+MM,SUPR,Süpürgelik,oge,2.3
+MM,SUYA,Su Yalıtımı,oge,2.3
+MM,TASI,Taşıyıcı,oge,2.3
+MM,TAVN,Tavan,oge,2.3
+MM,TEFR,Tefriş,oge,2.3
+MM,TEML,Temel,oge,2.3
+MM,TRET,Tretuvar,oge,2.3
+MM,TSVY,Tesviye Betonu,oge,2.3
+MM,YIBO,Yağmur İniş Borusu,oge,2.3
+MM,YOLL,Yol,oge,2.3
+MM,ZMNK,Zemin Kaplama,oge,2.3
+PY,DIGR,Diğer,alt_disiplin,2.10
+PY,XXXX,Genel,alt_disiplin,2.10
+PY,BITS,Bitkisel,alt_disiplin,2.10
+PY,YAPS,Yapısal,alt_disiplin,2.10
+ST,DIGR,Diğer,alt_disiplin,2.5
+ST,XXXX,Genel,alt_disiplin,2.5
+ST,AHSP,Ahşap,alt_disiplin,2.5
+ST,BETO,Betonarme,alt_disiplin,2.5
+ST,CELK,Çelik,alt_disiplin,2.5
+ST,KMPT,Kompozit,alt_disiplin,2.5
+ST,YIGM,Yığma,alt_disiplin,2.5
+ZE,DIGR,Diğer,oge,2.11
+ZE,XXXX,Genel (Öge kullanılmaması durumunda),oge,2.11
+ZE,IKS,İksa,oge,2.11
+ZE,KZK,Kazık,oge,2.11
+ZE,ZTE,Zemin ve Temel,oge,2.11

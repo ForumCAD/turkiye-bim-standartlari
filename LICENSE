@@ -1,0 +1,23 @@
+Veri ve dokümantasyon / Data and documentation
+
+Copyright (c) 2026 ForumCAD (https://forumcad.com)
+
+Bu depodaki veri dosyaları (*.csv, *.json) ve dokümantasyon (*.md),
+Creative Commons Atıf 4.0 Uluslararası Lisansı (CC BY 4.0) ile lisanslanmıştır.
+
+The data files (*.csv, *.json) and documentation (*.md) in this repository are
+licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Lisans metni / Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Özet / Summary:            https://creativecommons.org/licenses/by/4.0/deed.tr
+
+Kaynak gösterme / Attribution:
+  ForumCAD, "Türkiye BIM Standartları: açık veri", 2026, https://forumcad.com/bim.php
+
+Yönetmelik metni (Resmî Gazete, Sayı 33331) kamuya açık resmî metindir. Bu lisans,
+ForumCAD'in derlemesini, veri yapısını ve düzenlemelerini kapsar.
+
+The regulation text itself is a public official document; this license covers
+ForumCAD's compilation, data structure and editorial work.
+
+Kod dosyaları (dosya-adi/*.js) MIT lisanslıdır: bkz. LICENSE-CODE.

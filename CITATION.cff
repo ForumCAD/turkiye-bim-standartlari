@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Bu veriyi kullanıyorsanız lütfen kaynak gösterin. / If you use this data, please cite it."
+title: "Türkiye BIM Standartları: açık veri"
+abstract: "Mimarlık ve Mühendislik Projelerinin Dijital Olarak Hazırlanması Hakkında Yönetmelik referans tabloları: IFC sınıfları (EK-5), mahal kodları (EK-3) ve dosya adlandırma kuralı (EK-2)."
+type: dataset
+authors:
+  - name: "ForumCAD"
+    website: "https://forumcad.com"
+  - family-names: "Özçelik"
+    given-names: "Yasin"
+license: CC-BY-4.0
+url: "https://forumcad.com/bim.php"
+version: "1.0.0"
+date-released: "2026-10-22"
+keywords:
+  - BIM
+  - IFC
+  - openBIM
+  - Türkiye
+  - Dijital Proje Yönetmeliği
+  - mahal kodları
+  - dosya adlandırma

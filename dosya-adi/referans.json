@@ -1,0 +1,2029 @@
+{
+  "kaynak": "Mimarlık ve Mühendislik Projelerinin Dijital Olarak Hazırlanması Hakkında Yönetmelik (Resmî Gazete, 5 Ağustos 2026, Sayı 33331), EK-2",
+  "ayirici": "_",
+  "bicim": "{proje}_{bina}_{disiplin}_{oge}_{tur}_{tip}_{kat}_{sira}_{revizyon}",
+  "alanlar": [
+    {
+      "sira": 1,
+      "alan": "Proje Kodu",
+      "uzunluk": 6,
+      "desen": "^\\d{6}$"
+    },
+    {
+      "sira": 2,
+      "alan": "Bina Kodu",
+      "uzunluk": 2,
+      "desen": "^[A-Z0-9]{2}$"
+    },
+    {
+      "sira": 3,
+      "alan": "Disiplin",
+      "uzunluk": 2,
+      "desen": null
+    },
+    {
+      "sira": 4,
+      "alan": "Alt Disiplin / Öge",
+      "uzunluk": 4,
+      "desen": null
+    },
+    {
+      "sira": 5,
+      "alan": "Dosya Türü",
+      "uzunluk": 2,
+      "desen": null
+    },
+    {
+      "sira": 6,
+      "alan": "Dosya Tipi",
+      "uzunluk": 3,
+      "desen": null
+    },
+    {
+      "sira": 7,
+      "alan": "Kat / Konum",
+      "uzunluk": 3,
+      "desen": null
+    },
+    {
+      "sira": 8,
+      "alan": "Sıra No",
+      "uzunluk": 2,
+      "desen": "^\\d{2}$"
+    },
+    {
+      "sira": 9,
+      "alan": "Revizyon No",
+      "uzunluk": 3,
+      "desen": "^\\d{3}$"
+    }
+  ],
+  "disiplinler": [
+    {
+      "kod": "MM",
+      "ad": "Mimari"
+    },
+    {
+      "kod": "IM",
+      "ad": "İç Mimari"
+    },
+    {
+      "kod": "ST",
+      "ad": "Statik"
+    },
+    {
+      "kod": "EE",
+      "ad": "Elektrik"
+    },
+    {
+      "kod": "MK",
+      "ad": "Mekanik"
+    },
+    {
+      "kod": "HR",
+      "ad": "Harita"
+    },
+    {
+      "kod": "AL",
+      "ad": "Altyapı"
+    },
+    {
+      "kod": "PY",
+      "ad": "Peyzaj"
+    },
+    {
+      "kod": "ZE",
+      "ad": "Zemin"
+    },
+    {
+      "kod": "YN",
+      "ad": "Yangın"
+    },
+    {
+      "kod": "GS",
+      "ad": "Güneş Enerji Sistemi"
+    },
+    {
+      "kod": "AK",
+      "ad": "Akustik"
+    }
+  ],
+  "ogeler": [
+    {
+      "disiplin": "AL",
+      "kod": "DIGR",
+      "ad": "Diğer",
+      "tur": "alt_disiplin",
+      "tablo": "2.9"
+    },
+    {
+      "disiplin": "AL",
+      "kod": "XXXX",
+      "ad": "Genel",
+      "tur": "alt_disiplin",
+      "tablo": "2.9"
+    },
+    {
+      "disiplin": "AL",
+      "kod": "ATIS",
+      "ad": "Atık Su",
+      "tur": "alt_disiplin",
+      "tablo": "2.9"
+    },
+    {
+      "disiplin": "AL",
+      "kod": "ICMS",
+      "ad": "İçme Suyu",
+      "tur": "alt_disiplin",
+      "tablo": "2.9"
+    },
+    {
+      "disiplin": "AL",
+      "kod": "YAGS",
+      "ad": "Yağmur Suyu",
+      "tur": "alt_disiplin",
+      "tablo": "2.9"
+    },
+    {
+      "disiplin": "EE",
+      "kod": "DIGR",
+      "ad": "Diğer",
+      "tur": "alt_disiplin",
+      "tablo": "2.7"
+    },
+    {
+      "disiplin": "EE",
+      "kod": "XXXX",
+      "ad": "Genel",
+      "tur": "alt_disiplin",
+      "tablo": "2.7"
+    },
+    {
+      "disiplin": "EE",
+      "kod": "AYDT",
+      "ad": "Aydınlatma Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.7"
+    },
+    {
+      "disiplin": "EE",
+      "kod": "CAYT",
+      "ad": "Çevre Aydınlatma Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.7"
+    },
+    {
+      "disiplin": "EE",
+      "kod": "CTVS",
+      "ad": "Kapalı Devre TV Sistemleri (CCTV)-Kartlı Geçiş ve Güvenlik Sistemleri",
+      "tur": "alt_disiplin",
+      "tablo": "2.7"
+    },
+    {
+      "disiplin": "EE",
+      "kod": "DJGT",
+      "ad": "Dizel Jeneratör Grubu Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.7"
+    },
+    {
+      "disiplin": "EE",
+      "kod": "GUDT",
+      "ad": "Güç Dağıtım Tesisatı -Mekanik Tesisat İçin Güç Dağıtımı Tesisatı-Reaktif Güç Kompanzasyonu",
+      "tur": "alt_disiplin",
+      "tablo": "2.7"
+    },
+    {
+      "disiplin": "EE",
+      "kod": "KUVA",
+      "ad": "Kuvvetli Akım Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.7"
+    },
+    {
+      "disiplin": "EE",
+      "kod": "MYAS",
+      "ad": "Müzik Yayın, Anons Sistemi-Merkezi Saat Sistemi- Intercom Sistemi",
+      "tur": "alt_disiplin",
+      "tablo": "2.7"
+    },
+    {
+      "disiplin": "EE",
+      "kod": "OGET",
+      "ad": "Orta Gerilim Enerji Temini (Trafo)",
+      "tur": "alt_disiplin",
+      "tablo": "2.7"
+    },
+    {
+      "disiplin": "EE",
+      "kod": "TBIA",
+      "ad": "Telefon-Bilgi İletişim Ağı-TV Sistemleri Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.7"
+    },
+    {
+      "disiplin": "EE",
+      "kod": "TOST",
+      "ad": "Topraklama Sistemleri Tesisatı -Yıldırımdan Korunma Sistemi",
+      "tur": "alt_disiplin",
+      "tablo": "2.7"
+    },
+    {
+      "disiplin": "EE",
+      "kod": "YAVA",
+      "ad": "Yangın Algılama ve Alarm Tesisatı-Acil Anons Sistemleri -Acil Durum Aydınlatma ve Yönlendirme Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.7"
+    },
+    {
+      "disiplin": "EE",
+      "kod": "ZAYA",
+      "ad": "Zayıf Akım Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.7"
+    },
+    {
+      "disiplin": "HR",
+      "kod": "DIGR",
+      "ad": "Diğer",
+      "tur": "oge",
+      "tablo": "2.8"
+    },
+    {
+      "disiplin": "HR",
+      "kod": "XXXX",
+      "ad": "Genel",
+      "tur": "oge",
+      "tablo": "2.8"
+    },
+    {
+      "disiplin": "HR",
+      "kod": "ADPL",
+      "ad": "Ada Parsel",
+      "tur": "oge",
+      "tablo": "2.8"
+    },
+    {
+      "disiplin": "HR",
+      "kod": "BLKA",
+      "ad": "Blok Adı",
+      "tur": "oge",
+      "tablo": "2.8"
+    },
+    {
+      "disiplin": "HR",
+      "kod": "BZKT",
+      "ad": "Bina Zemin Kotu",
+      "tur": "oge",
+      "tablo": "2.8"
+    },
+    {
+      "disiplin": "HR",
+      "kod": "CKMS",
+      "ad": "Çekme Mesafesi",
+      "tur": "oge",
+      "tablo": "2.8"
+    },
+    {
+      "disiplin": "HR",
+      "kod": "DOSB",
+      "ad": "Dönüşüm Bilgisi",
+      "tur": "oge",
+      "tablo": "2.8"
+    },
+    {
+      "disiplin": "HR",
+      "kod": "KMPL",
+      "ad": "Komşu Parseller",
+      "tur": "oge",
+      "tablo": "2.8"
+    },
+    {
+      "disiplin": "HR",
+      "kod": "KORD",
+      "ad": "Koordinatlar",
+      "tur": "oge",
+      "tablo": "2.8"
+    },
+    {
+      "disiplin": "HR",
+      "kod": "LJNT",
+      "ad": "Lejant",
+      "tur": "oge",
+      "tablo": "2.8"
+    },
+    {
+      "disiplin": "HR",
+      "kod": "PKBL",
+      "ad": "Proje Koordinat Bilgisi",
+      "tur": "oge",
+      "tablo": "2.8"
+    },
+    {
+      "disiplin": "HR",
+      "kod": "PLGN",
+      "ad": "Poligon",
+      "tur": "oge",
+      "tablo": "2.8"
+    },
+    {
+      "disiplin": "HR",
+      "kod": "PZKT",
+      "ad": "Parsel Zemin Kotu",
+      "tur": "oge",
+      "tablo": "2.8"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "DIGR",
+      "ad": "Diğer",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "XXXX",
+      "ad": "Genel",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "AKSR",
+      "ad": "Aksesuar",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "AKUS",
+      "ad": "Akustik Panel",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "ASAN",
+      "ad": "Asansör",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "ASTV",
+      "ad": "Asma Tavan",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "AYDN",
+      "ad": "Aydınlatma Elemanı",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "BACA",
+      "ad": "Baca",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "BITK",
+      "ad": "Bitki",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "BNYO",
+      "ad": "Banyo Elemanı",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "BOLP",
+      "ad": "Bölücü Panel",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "BORD",
+      "ad": "Bordür",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "CAMM",
+      "ad": "Cam",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "CATI",
+      "ad": "Çatı",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "CEPH",
+      "ad": "Cephe",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "CKAP",
+      "ad": "Çatı Kaplama",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "CKTA",
+      "ad": "Çatı Kaplama Tahtası",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "CMBL",
+      "ad": "Cam İç Bölme",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "CORT",
+      "ad": "Çörten",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "CTAS",
+      "ad": "Çatı Taşıyıcı",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "CVRE",
+      "ad": "Çevre",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "DENZ",
+      "ad": "Denizlik",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "DOGR",
+      "ad": "Doğrama",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "DOSM",
+      "ad": "Döşeme",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "DUVA",
+      "ad": "Duvar",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "DUVK",
+      "ad": "Duvar Kaplama",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "EMSL",
+      "ad": "Emsal",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "GIYC",
+      "ad": "Giydirme Cephe",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "GNKR",
+      "ad": "Güneş Kırıcı",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "HARP",
+      "ad": "Harpuşta",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "HATL",
+      "ad": "Hatıl",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "ISLH",
+      "ad": "Islak Hacim",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "ISYA",
+      "ad": "Isı Yalıtımı",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "KALD",
+      "ad": "Kaldırım",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "KARP",
+      "ad": "Kartonpiyer",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "KLIM",
+      "ad": "Klima İç Ünite",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "KORK",
+      "ad": "Korkuluk",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "KPKN",
+      "ad": "Kapı Kanat",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "KPKS",
+      "ad": "Kapı Kasa",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "LENT",
+      "ad": "Lento",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "MERD",
+      "ad": "Merdiven",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "MNFZ",
+      "ad": "Menfez",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "MTFK",
+      "ad": "Mutfak Elemanı",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "OLUK",
+      "ad": "Oluk",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "PANL",
+      "ad": "Ahşap Panel",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "PNKS",
+      "ad": "Pencere Kasa",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "PNKT",
+      "ad": "Pencere Kanat",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "PRDE",
+      "ad": "Perde",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "PRIZ",
+      "ad": "Priz/Anahtar",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "RAMP",
+      "ad": "Rampa",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "SAPP",
+      "ad": "Şap",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "SESY",
+      "ad": "Ses Yalıtımı",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "SIVA",
+      "ad": "Sıva",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "SMOB",
+      "ad": "Sabit Mobilya",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "SUPR",
+      "ad": "Süpürgelik",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "SUYA",
+      "ad": "Su Yalıtımı",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "TASI",
+      "ad": "Taşıyıcı",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "TAVN",
+      "ad": "Tavan",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "TEFR",
+      "ad": "Tefriş",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "TEML",
+      "ad": "Temel",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "TRET",
+      "ad": "Tretuvar",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "TSVY",
+      "ad": "Tesviye Betonu",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "TZGH",
+      "ad": "Tezgâh",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "YIBO",
+      "ad": "Yağmur İniş Borusu",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "YOLL",
+      "ad": "Yol",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "IM",
+      "kod": "ZMNK",
+      "ad": "Zemin Kaplama",
+      "tur": "oge",
+      "tablo": "2.4"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "DIGR",
+      "ad": "Diğer",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "XXXX",
+      "ad": "Genel",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "ASNR",
+      "ad": "Asansör",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "ASTT",
+      "ad": "Atık Su Arıtma Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "BHTT",
+      "ad": "Buhar Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "BSHT",
+      "ad": "Basınçlı Hava Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "BSTT",
+      "ad": "Bahçe Sulama Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "CMTT",
+      "ad": "Çamaşırhane Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "DGTT",
+      "ad": "Doğalgaz Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "DSDK",
+      "ad": "Klima Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "HVLT",
+      "ad": "Havalandırma Tesisat",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "HVZT",
+      "ad": "Havuz Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "ISTT",
+      "ad": "Isıtma Tesisat",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "MDGZ",
+      "ad": "Medikal Gaz",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "MUTT",
+      "ad": "Mutfak Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "ORTT",
+      "ad": "Müşterek Tesisat",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "OTMT",
+      "ad": "Otomatik Kontrol Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "PIST",
+      "ad": "Pissu Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "SGTT",
+      "ad": "Soğutma Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "SHTT",
+      "ad": "Sıhhi Tesisat",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "TMST",
+      "ad": "Temiz Su Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "YAGT",
+      "ad": "Yağmur Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MK",
+      "kod": "YNGT",
+      "ad": "Yangın Tesisatı",
+      "tur": "alt_disiplin",
+      "tablo": "2.6"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "DIGR",
+      "ad": "Diğer",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "XXXX",
+      "ad": "Genel",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "AKSR",
+      "ad": "Aksesuar",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "AKSS",
+      "ad": "Aks",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "ASAN",
+      "ad": "Asansör",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "ASTV",
+      "ad": "Asma Tavan",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "BACA",
+      "ad": "Baca",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "BITK",
+      "ad": "Bitki",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "BORD",
+      "ad": "Bordür",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "CAMM",
+      "ad": "Cam",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "CATI",
+      "ad": "Çatı",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "CEPH",
+      "ad": "Cephe",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "CKAP",
+      "ad": "Çatı Kaplama",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "CKTA",
+      "ad": "Çatı Kaplama Tahtası",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "CORT",
+      "ad": "Çörten",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "CTAS",
+      "ad": "Çatı Taşıyıcı",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "CVRE",
+      "ad": "Çevre",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "DENZ",
+      "ad": "Denizlik",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "DOGR",
+      "ad": "Doğrama",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "DOSM",
+      "ad": "Döşeme",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "DUVA",
+      "ad": "Duvar",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "DUVK",
+      "ad": "Duvar Kaplama",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "EMSL",
+      "ad": "Emsal",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "GIYC",
+      "ad": "Giydirme Cephe",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "GNKR",
+      "ad": "Güneş Kırıcı",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "HARP",
+      "ad": "Harpuşta",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "HATL",
+      "ad": "Hatıl",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "ISLH",
+      "ad": "Islak Hacim",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "ISYA",
+      "ad": "Isı Yalıtımı",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "KALD",
+      "ad": "Kaldırım",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "KAPI",
+      "ad": "Kapı",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "KARP",
+      "ad": "Kartonpiyer",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "KOLN",
+      "ad": "Kolon",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "KORK",
+      "ad": "Korkuluk",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "LENT",
+      "ad": "Lento",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "MERD",
+      "ad": "Merdiven",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "OLUK",
+      "ad": "Oluk",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "PENC",
+      "ad": "Pencere",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "RAMP",
+      "ad": "Rampa",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "SAPP",
+      "ad": "Şap",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "SESY",
+      "ad": "Ses Yalıtımı",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "SIVA",
+      "ad": "Sıva",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "SUPR",
+      "ad": "Süpürgelik",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "SUYA",
+      "ad": "Su Yalıtımı",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "TASI",
+      "ad": "Taşıyıcı",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "TAVN",
+      "ad": "Tavan",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "TEFR",
+      "ad": "Tefriş",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "TEML",
+      "ad": "Temel",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "TRET",
+      "ad": "Tretuvar",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "TSVY",
+      "ad": "Tesviye Betonu",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "YIBO",
+      "ad": "Yağmur İniş Borusu",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "YOLL",
+      "ad": "Yol",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "MM",
+      "kod": "ZMNK",
+      "ad": "Zemin Kaplama",
+      "tur": "oge",
+      "tablo": "2.3"
+    },
+    {
+      "disiplin": "PY",
+      "kod": "DIGR",
+      "ad": "Diğer",
+      "tur": "alt_disiplin",
+      "tablo": "2.10"
+    },
+    {
+      "disiplin": "PY",
+      "kod": "XXXX",
+      "ad": "Genel",
+      "tur": "alt_disiplin",
+      "tablo": "2.10"
+    },
+    {
+      "disiplin": "PY",
+      "kod": "BITS",
+      "ad": "Bitkisel",
+      "tur": "alt_disiplin",
+      "tablo": "2.10"
+    },
+    {
+      "disiplin": "PY",
+      "kod": "YAPS",
+      "ad": "Yapısal",
+      "tur": "alt_disiplin",
+      "tablo": "2.10"
+    },
+    {
+      "disiplin": "ST",
+      "kod": "DIGR",
+      "ad": "Diğer",
+      "tur": "alt_disiplin",
+      "tablo": "2.5"
+    },
+    {
+      "disiplin": "ST",
+      "kod": "XXXX",
+      "ad": "Genel",
+      "tur": "alt_disiplin",
+      "tablo": "2.5"
+    },
+    {
+      "disiplin": "ST",
+      "kod": "AHSP",
+      "ad": "Ahşap",
+      "tur": "alt_disiplin",
+      "tablo": "2.5"
+    },
+    {
+      "disiplin": "ST",
+      "kod": "BETO",
+      "ad": "Betonarme",
+      "tur": "alt_disiplin",
+      "tablo": "2.5"
+    },
+    {
+      "disiplin": "ST",
+      "kod": "CELK",
+      "ad": "Çelik",
+      "tur": "alt_disiplin",
+      "tablo": "2.5"
+    },
+    {
+      "disiplin": "ST",
+      "kod": "KMPT",
+      "ad": "Kompozit",
+      "tur": "alt_disiplin",
+      "tablo": "2.5"
+    },
+    {
+      "disiplin": "ST",
+      "kod": "YIGM",
+      "ad": "Yığma",
+      "tur": "alt_disiplin",
+      "tablo": "2.5"
+    },
+    {
+      "disiplin": "ZE",
+      "kod": "DIGR",
+      "ad": "Diğer",
+      "tur": "oge",
+      "tablo": "2.11"
+    },
+    {
+      "disiplin": "ZE",
+      "kod": "XXXX",
+      "ad": "Genel (Öge kullanılmaması durumunda)",
+      "tur": "oge",
+      "tablo": "2.11"
+    },
+    {
+      "disiplin": "ZE",
+      "kod": "IKS",
+      "ad": "İksa",
+      "tur": "oge",
+      "tablo": "2.11"
+    },
+    {
+      "disiplin": "ZE",
+      "kod": "KZK",
+      "ad": "Kazık",
+      "tur": "oge",
+      "tablo": "2.11"
+    },
+    {
+      "disiplin": "ZE",
+      "kod": "ZTE",
+      "ad": "Zemin ve Temel",
+      "tur": "oge",
+      "tablo": "2.11"
+    }
+  ],
+  "dosya_turleri": [
+    {
+      "kod": "PL",
+      "ad": "Plan",
+      "aciklama": null
+    },
+    {
+      "kod": "KS",
+      "ad": "Kesit",
+      "aciklama": "Tip kesitler de dahil"
+    },
+    {
+      "kod": "GR",
+      "ad": "Görünüş",
+      "aciklama": null
+    },
+    {
+      "kod": "DT",
+      "ad": "Detay",
+      "aciklama": null
+    },
+    {
+      "kod": "SM",
+      "ad": "Şema",
+      "aciklama": null
+    },
+    {
+      "kod": "MD",
+      "ad": "Model",
+      "aciklama": null
+    },
+    {
+      "kod": "FR",
+      "ad": "Form",
+      "aciklama": null
+    },
+    {
+      "kod": "LS",
+      "ad": "Liste",
+      "aciklama": null
+    },
+    {
+      "kod": "DK",
+      "ad": "Doküman",
+      "aciklama": null
+    },
+    {
+      "kod": "RP",
+      "ad": "Rapor",
+      "aciklama": null
+    },
+    {
+      "kod": "HS",
+      "ad": "Hesap",
+      "aciklama": null
+    },
+    {
+      "kod": "GN",
+      "ad": "Genel",
+      "aciklama": null
+    }
+  ],
+  "dosya_tipleri": [
+    {
+      "kod": "MMC",
+      "ad": "Mimari Çizim",
+      "grup": "MIMARI"
+    },
+    {
+      "kod": "MAP",
+      "ad": "Mimari Açıklama Raporu",
+      "grup": "MIMARI"
+    },
+    {
+      "kod": "ERP",
+      "ad": "Erişilebilirlik Çizimi",
+      "grup": "MIMARI"
+    },
+    {
+      "kod": "YKG",
+      "ad": "Yangın Kaçış ve Güvenlik Planları",
+      "grup": "MIMARI"
+    },
+    {
+      "kod": "CAT",
+      "ad": "Çatı Planı ve Detayları",
+      "grup": "MIMARI"
+    },
+    {
+      "kod": "VAZ",
+      "ad": "Vaziyet Planı",
+      "grup": "MIMARI"
+    },
+    {
+      "kod": "MIR",
+      "ad": "Mimari Hesap Raporu",
+      "grup": "MIMARI"
+    },
+    {
+      "kod": "STC",
+      "ad": "Statik Çizim",
+      "grup": "STATIK"
+    },
+    {
+      "kod": "SHR",
+      "ad": "Statik Hesap Raporu",
+      "grup": "STATIK"
+    },
+    {
+      "kod": "ISC",
+      "ad": "İskele Çizimi",
+      "grup": "STATIK"
+    },
+    {
+      "kod": "IHR",
+      "ad": "İskele Hesap Raporu",
+      "grup": "STATIK"
+    },
+    {
+      "kod": "MKC",
+      "ad": "Mekanik Çizim",
+      "grup": "MEKANIK"
+    },
+    {
+      "kod": "ITH",
+      "ad": "Isıtma Tesisatı Hesap Raporu",
+      "grup": "MEKANIK"
+    },
+    {
+      "kod": "IYP",
+      "ad": "Isı Yalıtım Projesi Hesap Raporu",
+      "grup": "MEKANIK"
+    },
+    {
+      "kod": "IKR",
+      "ad": "Isı Kaybı Isı Kazanç Hesapları Raporu",
+      "grup": "MEKANIK"
+    },
+    {
+      "kod": "EKB",
+      "ad": "Enerji Kimlik Belgesi Ön Hesap Raporu",
+      "grup": "MEKANIK"
+    },
+    {
+      "kod": "ASN",
+      "ad": "Asansör Trafik Hesabı",
+      "grup": "MEKANIK"
+    },
+    {
+      "kod": "MTS",
+      "ad": "Mekanik Özel Teknik Şartname",
+      "grup": "MEKANIK"
+    },
+    {
+      "kod": "ELC",
+      "ad": "Elektrik Çizim",
+      "grup": "ELEKTRIK"
+    },
+    {
+      "kod": "AGH",
+      "ad": "Akım Kontrolü ve Gerilim Düşümü Hesabı",
+      "grup": "ELEKTRIK"
+    },
+    {
+      "kod": "TGH",
+      "ad": "Trafo Güç Hesabı",
+      "grup": "ELEKTRIK"
+    },
+    {
+      "kod": "AHR",
+      "ad": "Aydınlatma Hesap Raporu",
+      "grup": "ELEKTRIK"
+    },
+    {
+      "kod": "ETS",
+      "ad": "Elektrik Özel Teknik Şartname",
+      "grup": "ELEKTRIK"
+    },
+    {
+      "kod": "YAP",
+      "ad": "Yapı Aplikasyon Projesi",
+      "grup": "HARITA"
+    },
+    {
+      "kod": "DIC",
+      "ad": "Diğer Çizim",
+      "grup": "DIGER"
+    },
+    {
+      "kod": "DGR",
+      "ad": "Diğer Raporlar",
+      "grup": "DIGER"
+    },
+    {
+      "kod": "MLZ",
+      "ad": "Malzeme Listesi",
+      "grup": "TUM"
+    },
+    {
+      "kod": "MHL",
+      "ad": "Mahal Listesi",
+      "grup": "TUM"
+    },
+    {
+      "kod": "XXX",
+      "ad": "Tip yok",
+      "grup": "TUM"
+    },
+    {
+      "kod": "MKF",
+      "ad": "Model Kontrol Formu",
+      "grup": "TUM"
+    }
+  ],
+  "katlar": [
+    {
+      "kod": "B10",
+      "ad": "10. Bodrum Kat",
+      "sira": -10
+    },
+    {
+      "kod": "B09",
+      "ad": "9. Bodrum Kat",
+      "sira": -9
+    },
+    {
+      "kod": "B08",
+      "ad": "8. Bodrum Kat",
+      "sira": -8
+    },
+    {
+      "kod": "B07",
+      "ad": "7. Bodrum Kat",
+      "sira": -7
+    },
+    {
+      "kod": "B06",
+      "ad": "6. Bodrum Kat",
+      "sira": -6
+    },
+    {
+      "kod": "B05",
+      "ad": "5. Bodrum Kat",
+      "sira": -5
+    },
+    {
+      "kod": "B04",
+      "ad": "4. Bodrum Kat",
+      "sira": -4
+    },
+    {
+      "kod": "B03",
+      "ad": "3. Bodrum Kat",
+      "sira": -3
+    },
+    {
+      "kod": "B02",
+      "ad": "2. Bodrum Kat",
+      "sira": -2
+    },
+    {
+      "kod": "B01",
+      "ad": "1. Bodrum Kat",
+      "sira": -1
+    },
+    {
+      "kod": "K00",
+      "ad": "Zemin Kat",
+      "sira": 0
+    },
+    {
+      "kod": "K01",
+      "ad": "Kat 1",
+      "sira": 1
+    },
+    {
+      "kod": "K02",
+      "ad": "Kat 2",
+      "sira": 2
+    },
+    {
+      "kod": "K03",
+      "ad": "Kat 3",
+      "sira": 3
+    },
+    {
+      "kod": "K04",
+      "ad": "Kat 4",
+      "sira": 4
+    },
+    {
+      "kod": "K05",
+      "ad": "Kat 5",
+      "sira": 5
+    },
+    {
+      "kod": "K06",
+      "ad": "Kat 6",
+      "sira": 6
+    },
+    {
+      "kod": "K07",
+      "ad": "Kat 7",
+      "sira": 7
+    },
+    {
+      "kod": "K08",
+      "ad": "Kat 8",
+      "sira": 8
+    },
+    {
+      "kod": "K09",
+      "ad": "Kat 9",
+      "sira": 9
+    },
+    {
+      "kod": "K10",
+      "ad": "Kat 10",
+      "sira": 10
+    },
+    {
+      "kod": "K11",
+      "ad": "Kat 11",
+      "sira": 11
+    },
+    {
+      "kod": "K12",
+      "ad": "Kat 12",
+      "sira": 12
+    },
+    {
+      "kod": "K13",
+      "ad": "Kat 13",
+      "sira": 13
+    },
+    {
+      "kod": "K14",
+      "ad": "Kat 14",
+      "sira": 14
+    },
+    {
+      "kod": "K15",
+      "ad": "Kat 15",
+      "sira": 15
+    },
+    {
+      "kod": "K16",
+      "ad": "Kat 16",
+      "sira": 16
+    },
+    {
+      "kod": "K17",
+      "ad": "Kat 17",
+      "sira": 17
+    },
+    {
+      "kod": "K18",
+      "ad": "Kat 18",
+      "sira": 18
+    },
+    {
+      "kod": "K19",
+      "ad": "Kat 19",
+      "sira": 19
+    },
+    {
+      "kod": "K20",
+      "ad": "Kat 20",
+      "sira": 20
+    },
+    {
+      "kod": "K21",
+      "ad": "Kat 21",
+      "sira": 21
+    },
+    {
+      "kod": "K22",
+      "ad": "Kat 22",
+      "sira": 22
+    },
+    {
+      "kod": "K23",
+      "ad": "Kat 23",
+      "sira": 23
+    },
+    {
+      "kod": "K24",
+      "ad": "Kat 24",
+      "sira": 24
+    },
+    {
+      "kod": "K25",
+      "ad": "Kat 25",
+      "sira": 25
+    },
+    {
+      "kod": "K26",
+      "ad": "Kat 26",
+      "sira": 26
+    },
+    {
+      "kod": "K27",
+      "ad": "Kat 27",
+      "sira": 27
+    },
+    {
+      "kod": "K28",
+      "ad": "Kat 28",
+      "sira": 28
+    },
+    {
+      "kod": "K29",
+      "ad": "Kat 29",
+      "sira": 29
+    },
+    {
+      "kod": "K30",
+      "ad": "Kat 30",
+      "sira": 30
+    },
+    {
+      "kod": "K31",
+      "ad": "Kat 31",
+      "sira": 31
+    },
+    {
+      "kod": "K32",
+      "ad": "Kat 32",
+      "sira": 32
+    },
+    {
+      "kod": "K33",
+      "ad": "Kat 33",
+      "sira": 33
+    },
+    {
+      "kod": "K34",
+      "ad": "Kat 34",
+      "sira": 34
+    },
+    {
+      "kod": "K35",
+      "ad": "Kat 35",
+      "sira": 35
+    },
+    {
+      "kod": "K36",
+      "ad": "Kat 36",
+      "sira": 36
+    },
+    {
+      "kod": "K37",
+      "ad": "Kat 37",
+      "sira": 37
+    },
+    {
+      "kod": "K38",
+      "ad": "Kat 38",
+      "sira": 38
+    },
+    {
+      "kod": "K39",
+      "ad": "Kat 39",
+      "sira": 39
+    },
+    {
+      "kod": "K40",
+      "ad": "Kat 40",
+      "sira": 40
+    },
+    {
+      "kod": "K41",
+      "ad": "Kat 41",
+      "sira": 41
+    },
+    {
+      "kod": "K42",
+      "ad": "Kat 42",
+      "sira": 42
+    },
+    {
+      "kod": "K43",
+      "ad": "Kat 43",
+      "sira": 43
+    },
+    {
+      "kod": "K44",
+      "ad": "Kat 44",
+      "sira": 44
+    },
+    {
+      "kod": "K45",
+      "ad": "Kat 45",
+      "sira": 45
+    },
+    {
+      "kod": "K46",
+      "ad": "Kat 46",
+      "sira": 46
+    },
+    {
+      "kod": "K47",
+      "ad": "Kat 47",
+      "sira": 47
+    },
+    {
+      "kod": "K48",
+      "ad": "Kat 48",
+      "sira": 48
+    },
+    {
+      "kod": "K49",
+      "ad": "Kat 49",
+      "sira": 49
+    },
+    {
+      "kod": "K50",
+      "ad": "Kat 50",
+      "sira": 50
+    },
+    {
+      "kod": "XXX",
+      "ad": "Kesit/Görünüş Konumu (müellif belirler)",
+      "sira": 997
+    },
+    {
+      "kod": "KXX",
+      "ad": "Asma/Çatı Piyesi/Tesisat Katı (müellif belirler)",
+      "sira": 998
+    },
+    {
+      "kod": "NNN",
+      "ad": "Kattan Bağımsız",
+      "sira": 999
+    }
+  ],
+  "disiplin_dosya_grubu": {
+    "MM": [
+      "MIMARI",
+      "TUM"
+    ],
+    "IM": [
+      "MIMARI",
+      "TUM"
+    ],
+    "ST": [
+      "STATIK",
+      "TUM"
+    ],
+    "MK": [
+      "MEKANIK",
+      "TUM"
+    ],
+    "EE": [
+      "ELEKTRIK",
+      "TUM"
+    ],
+    "HR": [
+      "HARITA",
+      "TUM"
+    ],
+    "AL": [
+      "DIGER",
+      "TUM"
+    ],
+    "PY": [
+      "DIGER",
+      "TUM"
+    ],
+    "ZE": [
+      "DIGER",
+      "TUM"
+    ],
+    "YN": [
+      "DIGER",
+      "TUM"
+    ],
+    "GS": [
+      "DIGER",
+      "TUM"
+    ],
+    "AK": [
+      "DIGER",
+      "TUM"
+    ]
+  }
+}
