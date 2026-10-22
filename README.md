@@ -18,7 +18,7 @@ Her veri seti hem **CSV** (UTF-8, virgülle ayrılmış, başlık satırlı) hem
 
 ```python
 import pandas as pd
-ifc = pd.read_csv("https://raw.githubusercontent.com/<kullanici>/turkiye-bim-standartlari/main/ifc-siniflari/ifc-siniflari.csv")
+ifc = pd.read_csv("https://raw.githubusercontent.com/ForumCAD/turkiye-bim-standartlari/main/ifc-siniflari/ifc-siniflari.csv")
 print(ifc[ifc.zorunlu].shape)   # (69, 9)
 ```
 
@@ -72,6 +72,7 @@ Ayrıntı: [`CITATION.cff`](CITATION.cff)
 
 - **Veri ve dokümantasyon:** [CC BY 4.0](LICENSE). Ticari kullanım dahil serbestçe kullanabilir, değiştirebilir ve paylaşabilirsiniz; kaynak göstermeniz yeterlidir. Yönetmelik metninin kendisi kamuya açık resmî metindir; lisans, ForumCAD'in derlemesini, düzenlemesini ve Türkçe yazım düzeltmelerini kapsar.
 - **Kod** (`dosya-adi/*.js`): [MIT](LICENSE-CODE).
+- Telif: © 2026 ForumCAD (https://forumcad.com).
 
 ## ForumCAD hakkında
 

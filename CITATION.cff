@@ -10,6 +10,7 @@ authors:
     given-names: "Yasin"
 license: CC-BY-4.0
 url: "https://forumcad.com/bim.php"
+repository-code: "https://github.com/ForumCAD/turkiye-bim-standartlari"
 version: "1.0.0"
 date-released: "2026-10-22"
 keywords:
